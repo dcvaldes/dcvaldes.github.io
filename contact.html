@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
         <title>Diana Valdes - Contact</title>
         <link rel="icon" type="image/png" href="/IMG/DianaValdes.png">
@@ -8,41 +9,63 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">   
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="assets/DianaValdes.png"/>
-        <script src="https://kit.fontawesome.com/00c3f64cdc.js" crossorigin="anonymous"></script> 
+        <script src="https://kit.fontawesome.com/00c3f64cdc.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149666975-2"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-149666975-2');
+            </script> 
     </head>
+
 <body>
-<!-- Navigation -->
-    <nav class="nav">
+
+<!---- Navigation ---->
+
+    <nav class="nav wrapper">
         <div class="heading">   
             <h1><a href="index.html">diana.</a></h1>
         </div> 
         <div class="menu">
             <a href="index.html#about">about</a>
             <a href="projects.html">projects</a>
-            <a href="contact.html" class="selected">contact</a>
-            <a href="assets/DianaValdes-Resume.pdf"target="_blank" rel="nofollow">resume</a>
+            <a href="contact.html" class="selected" id="selectedMobile">contact</a>
+            <a href="assets/Resume-DV.pdf" target="_blank">resume</a>
         </div>
     </nav>
 
-<!-- contact section -->
-    <section class="contact">
+<!---- Contact Section ---->
+
+<main>
+    <section class="contact wrapper">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTwyrxy-jYkDKrCe_AwWmoKZsDfPAm06PzKh29jQr0DnftuA/viewform?embedded=true" width="640" height="975" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section> 
-<!-- Footer -->
-    <footer class="footer">
-        <div>
-            <p>Let's Connect!</p>
+</main>
+
+<!---- Footer ---->
+
+<footer>
+    <section class="footerContent wrapper">
+        <div class="footerLeft">
+            <h4>Get in Touch</h4>
+            <a class="footerEmail" href="mailto:dianavaldes9@gmail.com" target="_blank">dianavaldes9@gmail.com</a>
+            <a href="contact.html" class ="footerButton">Contact Me</a>
         </div>
-        <div class="footerLinks  wrapper">
-            <a href="https://www.linkedin.com/in/valdesdiana"><i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="mailto:dianavaldes9@gmail.com"><i class="fas fa-envelope"></i>
-            </a>
-            <a  href="https://twitter.com/diana_cvv">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </div> 
-        <a class="footerEmail" href="mailto:dianavaldes9@gmail.com">dianavaldes9@gmail.com</a> 
-    </footer>
-</body>  
+        <div class="footerRight">
+            <h4>Let's Connect</h4>
+            <div class="footerLinks">
+                <a href="https://www.linkedin.com/in/valdesdiana" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:dianavaldes9@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://twitter.com/diana_cvv" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <p class="copyright wrapper">© 2021 Diana Valdes</p>
+</footer>
+
+</body>
+
 </html> 

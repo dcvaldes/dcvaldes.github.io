@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Diana Valdes - Contact</title>
+        <link rel="icon" type="image/png" href="/IMG/DianaValdes.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/DianaValdes.png"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@200;300;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/00c3f64cdc.js" crossorigin="anonymous"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149666975-2"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-149666975-2');
+            </script>
+    </head>
+
+<body>
+
+<!---- Navigation ---->
+
+    <nav class="nav wrapper" id="nav">
+        <div class="heading">   
+            <h1><a href="index.html">diana.</a></h1>
+        </div> 
+        <div class="menu">
+            <a href="index.html#about">about</a>
+            <a href="projects.html" class="selected" id="selectedMobile">projects</a>
+            <a href="contact.html" >contact</a>
+            <a href="assets/Resume-DV.pdf" target="_blank">resume</a>
+        </div>
+    </nav>
+    
+<!---Back to Projects-->
+    <a href="./projects.html#ux">
+        <section class="back">
+            <p class="wrapper">
+                <i class="fas fa-long-arrow-alt-left"></i>   Go back to projects
+            </p>
+        </section>
+    </a> 
+
+<!------- Main Content ------->  
+<div class="projectPreview">
+    <section class="projectHero wrapper">
+        <h1>Case Study</h1>
+        <h2>Real Estate Portal Redesign</h2>
+        <img class="previewImg" src="./assets/Matrix.png" alt="MLS Preview">
+    </section> 
+
+    <!---- Overview section ---->
+
+    <section class="projectGrey">
+        <div class="wrapper projectMLS">
+        <div class="projectBlurb">
+            <h2>Overview</h2>    
+            <h3>Motivation</h3>
+            <p>Purchasing a house is stressful to begin with, so having a proper tool that can help users browse will improve the overall experience.</p>
+            <h3>Challenge</h3>
+            <p>The website used by most real estate agents and their clients in Ontario is difficult to navigate, not appealing and frustrating for multi-user purposes.</p> 
+            <h3>Goal</h3>
+            <p>The designed product will help users have a seamless browsing experience and improve relationships between buyers and real estate agents.</p>
+            <h3>Role & Responsibilities</h3>
+            <h4>Role: Product Design, UX Research</h4>
+        </div>
+        <div class="projectImg">
+            <img  src="./assets/original-mls.png" alt="MLS Preview">
+        </div>
+        </div>
+    </section>
+    
+    <!---- Design Solution Section ---->
+    <section class="wrapper">
+        <h2>Design Process</h2>
+
+        <h3>Assumptions</h3>
+        <p>Several assumptions were made during the design process.</p>
+        <ul>
+            <li>Account based: user permissions will vary between buyer and agent.</li> 
+            <li>Age range: varies (18+)</li>
+            <li>Main audience: real estate clients and agents</li>
+            <li>Competitors: public real estate platforms</li>
+            <li>Project Scope: user experience for the home buyer persona, the site perspective for a buyer</li>
+        </ul>
+
+        <h3>User Research</h3>
+        <div class="research">
+            <div class="projectBlurb">
+                <p>User research interviews were conducted for two primary personas: a first-time home buyer and an experienced home buyer. The main purpose of the interview was to reveal some of the main pain points users experience. Using a set of questions to help guide the conversation, I sat with three people and discussed the site.</p> 
+                <p><span>Questions Asked:</span></p>
+                <ul>
+                    <li>How do you first get to the page?</li>
+                    <li>What were you hoping to get from this page?</li>
+                    <li>Is there anything that particularly stands out to you?</li>
+                    <li>What is your ideal process?</li>
+                    <li>What information do you walk out with?</li>
+                    <li>What is the biggest pain point of using this website?</li>
+                </ul>        
+            </div>
+            <div class="projectImg" >
+                <img src="./assets/survey-mls.png" alt="MLS Survey">
+            </div>
+        </div>
+        <div>
+            <p><span>Pain-Point Definition:</span></p>
+            <p>Based on the interviews and the answers provided, as well as some of my own observations, I compiled a list of pain-points:</p>
+            <ul>
+                <li>Unable to share properties with others</li>
+                <li>Need to gather information and externally send to agent about a property of interest</li>
+                <li>Searches are not saved</li>
+                <li>Search functionality is overall confusing</li>
+                <li>Navigation not clear</li>
+                <li>Unable to use browser back and forward buttons</li>
+                <li>Cannot open new tabs to view houses</li>
+            </ul>
+        </div>
+
+        <h3>Competitor Research</h3>
+        <div class="researchMarket">
+            <div class="projectBlurb">
+                <p>Following the user interviews, my next step was to review some of the other popular real estate market platforms.</p> 
+                <p><span>What I captured...</span></p>
+                <ul>
+                    <li>The landing page for all the platforms involved a search or customization component</li>
+                    <li>Most of them had a list of featured listings</li>
+                    <li>Saving or favouriting listings through visible icons</li>
+                    <li>Save search functionality</li>
+                    <li>Alternative viewing options including listings and map view</li>
+                    <li>Some items were not applicable to the project since it is an agent ran site (i.e. "look for agent" or "sell" would not apply)</li>
+                </ul>        
+            </div>
+            <div class="projectImg" >
+                <img src="./assets/competitor-mls.png" alt="MLS Competitor Review">
+            </div>
+        </div>
+
+        <h3>Ideation</h3>
+        <p>The approach for ideation involved focusing on the landing page of the site and then spiraling out to other functionality. The reason is because the path taken to the site is via a link provided by the agent of a particular listing or to the main landing page. Once the user has viewed the listing, they are likely to go back to the landing page and perform action items.</p>
+        <div class="ideationMLS">
+            <div>
+                <p>To visualize some ideas, I performed a "Crazy 8's" session for the landing page. From this session I captured several items: agent chat, views, search, and a sort toggle.</p>
+            </div>
+            <div class="ideationImg">
+                <img src="./assets/crazy8-mls.jpg" alt="MLS Crazy 8s">
+            </div>
+        </div>
+        <div class="ideationMLS" >
+            <div>
+                <p>I also created a hierarchy diagram to visualize the overall structure of the site.</p>
+            </div>
+            <div class="ideationImg">
+                <img src="./assets/flow-mls.png" alt="MLS Site Structure">
+            </div>
+        </div>
+
+        <h3>Prototyping</h3>
+        <p>Using Balsamiq, my first step to prototyping was to create low-fidelity prototypes of new functionality.
+        </p>
+        <p>Overall, my approach was too simplify the page so that the navigation was seamless and intuitive while staying true to the current structure.</p>
+        <div class="prototype">
+            <div class="prototypePic prototypeReverse">
+                <img class="" src="./assets/views-mls.png" alt="MV Workshop">
+                <div>
+                    <p>The first set reflects the different types of view types, as well as toggle sort. The map and grid view remained the same, but an additional view was added that contained all the important information (picture, details, and map).</p> 
+                    <p>Additionally, I restructured the listings to include more visible tags and action items, which include favourite, share, and schedule</p>
+                </div>
+            </div>
+            <div class="prototypePic prototypeMobile">
+                <div>
+                    <p>One of the main pain-points was on search functionality. Here, I aimed to separate the customized search vs. the general search bar.</p> 
+                    <p>Users can also save their search and access their list of searches - upon selection they can apply one to the view.</p>
+                </div>
+                <img class="" src="./assets/search-mls.png" alt="MLS Search">
+                
+            </div>
+            <div class="prototypePic prototypeReverse">
+                <img class="" src="./assets/chatList-mls.png" alt="MLS Chat and Lists">
+                <div>
+                    <p>Two other functionalities were introduced..</p>
+                    <p>The chat functionality would allow users to share their listings with their agent on the platform chat - not having the need to message them externally.</p>
+                    <p>A list functionality would allow users to access their favourites and scheduled listings</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---- Final Design Section ---->
+    <section class="finalDesign projectGrey">
+        <div class="wrapper">
+            <h2>Final Design </h2>
+            <p>For the final design, I created mid-fidelity prototypes for 5 different workflows using material design UI concepts to illustrate how each of the new functionalities would work. </a></p>
+            <div class="takeaway">
+                <div>
+                    <h3>Key Take-Aways</h3>
+                    <p><span>Main Page:</span>
+                        <br>The main page is the most critical for this site because it acts as the dashboard and starting point for other actions.</p>                           
+                    <p><span>Toggle:</span> 
+                        <br>The sorting toggle would facilitate the navigation for users to see between new listings, favourites and price decreases with minimal effort.</p>
+                    <p><span>My Lists:</span>
+                        <br>The new functionality of being able to schedule, favourites, and other types of lists needed to be stored in one place and be intuitively accessible.</p>                                    
+                    <p><span>Views and Action Buttons:</span>
+                        <br>Adding the "all-in-one" view for the listings minimizes the navigation needed between the other views or external navigation for more information. The action items allow users to favourite, share with their agent, and request a booking.</p>
+                    <p><span>Agent Chat:</span>
+                        <br>The site currently has a messaging system but it is hidden and forgotten by both parties. Adding a more "instant chat" feel and look can incentivize users to use it and remain on the site without having to externally message, as well as being able to share the listing within the site to the agent.</p>
+                </div>
+                <img class="" src="./assets/prototype-mls.png" alt="MLS Prototype">              
+            </div>     
+        </div>
+    </section>
+    <!---- Reflection Section ----> 
+
+    <section class="reflection wrapper">
+        <h2>Reflection</h2>
+        <p>User Interviews: Further insight from an agent could have been beneficial to the chat and booking functionality. Unfortunately, I was not able to contact participants but feedback and pain-points would be equally important.<p>
+        <p>Competitor Review: Apart from viewing the site itself, deeper research into user reviews/forums about the site could have uncovered more pain points.</p>
+        <p>User Testing: Once getting a low-fidelity mockup, I reviewed the site with a mentor of mine where I was able to get great feedback. In addition to this, further testing could be done on the low-fidelity or workflows by users of the site.</p>
+        <p>Acknowledgements: Having this been my first project,  I was fortunate to get advice and mentorship from Philippe Jean, who guided me through to the mid-fidelity stages of the project.</p>
+    </section> 
+
+    <div class="scroll wrapper">
+    <a href="#nav"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+<!---- Back to Projects ---->
+    <a href="./projects.html#ux">
+        <section class="back">
+            <p class="wrapper">
+                <i class="fas fa-long-arrow-alt-left"></i>   Go back to projects
+            </p>
+        </section>
+        </a> 
+
+</div>
+
+<!---- Footer ---->
+
+<footer>
+    <section  class="footerContent wrapper">
+        <div class="footerLeft">
+            <h4>Get in Touch</h4>
+            <div class="footerEmail">
+                <a href="mailto:dianavaldes9@gmail.com" target="_blank">dianavaldes9@gmail.com</a>
+            </div>
+            <a href="contact.html" class ="footerButton">Contact Me</a>
+        </div>
+        <div class="footerRight">
+            <h4>Let's Connect</h4>
+            <div class="footerLinks">
+                <a href="https://www.linkedin.com/in/valdesdiana" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:dianavaldes9@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://twitter.com/diana_cvv" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <p class="copyright wrapper">© 2021 Diana Valdes</p>
+</footer>
+
+</body>  
+
+</html> 
