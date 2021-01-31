@@ -29,6 +29,7 @@ a{
     padding: 20px 0;
     font-family: 'Quiscksand', sans-serif;
     color:black;
+    font-size: 1.6rem;
 }
 /*----------------------------------------------------- */
 /*------------------------General---------------------- */
@@ -376,6 +377,7 @@ footer{
     display:flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 /*----------------------------------------------------- */
