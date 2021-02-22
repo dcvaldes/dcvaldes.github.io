@@ -328,7 +328,19 @@ footer h4::after{
     display:flex;
     justify-content: center;
 }
-
+.contactEmail,
+.contactEmail{
+    background-color: #734B5E;
+    color: white;
+    margin: 0 5px 0 0;
+    padding: 0 5px;        
+}  
+.contactEmail:hover,
+.contactEmail:focus{
+    background-color: #f7f7ef;
+    color: #734B5E;
+    border-bottom: 0.2rem solid #734B5E;
+}
 /* -----------------About Specific--------------- */  
 /* ---------------------------------------------- */
 .about{
@@ -389,7 +401,7 @@ footer h4::after{
     object-fit: cover;
 }
 .projectLink a,
-.aboutInfo a {
+.aboutInfo a{
     background-color: #734B5E;
     color: white;
     margin: 0 5px 0 0;
